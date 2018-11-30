@@ -16,6 +16,7 @@
     "pouchdb-find": "^7.0.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
+    "socket.io": "^2.2.0",
     "uuid": "^3.3.2",
     "xxhashjs": "^0.2.2"
   },

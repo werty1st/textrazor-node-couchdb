@@ -159,6 +159,7 @@ class Feeder extends EventEmitter{
         doc.result = result;
         jobs.put(doc)
         .then(()=>{
+            this.emit("completed", doc);
             console.info("saved result:",doc.payload.source_id, doc._id);
         })
         .catch(err=>{

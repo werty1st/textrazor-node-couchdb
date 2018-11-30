@@ -1,7 +1,8 @@
 # Demo create Job
 
-* Checkout Branch: **dev**
+* Checkout
 * cd to **dummy-client**
+* npm install
 
 ```bash
 TARGET=https://rz.dpa.aws.heman.io node demofeeder.js

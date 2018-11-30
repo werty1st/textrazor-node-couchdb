@@ -8,3 +8,6 @@ razults/*
 .npmrc
 
 lpd_atom.jl
+
+
+.DS_Store

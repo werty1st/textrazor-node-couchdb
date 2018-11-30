@@ -1,0 +1,10 @@
+node_modules
+
+jobs/*
+
+razults/*
+
+
+.npmrc
+
+lpd_atom.jl

@@ -1,0 +1,28 @@
+version: "2.2"
+
+services:
+
+    server:
+        depends_on:
+            - couchdb
+        build:
+            context: server
+            dockerfile: Dockerfile
+        ports:
+            - "3000:3000"
+        env_file:
+            - .npmrc
+
+    couchdb:
+        image: couchdb:2.2
+        volumes:
+            - couchdb:/opt/couchdb/data
+        ports:
+            - "5984:5984"
+        env_file:
+            - .npmrc
+
+
+
+volumes: 
+   couchdb:

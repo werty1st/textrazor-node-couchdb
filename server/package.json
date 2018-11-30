@@ -1,0 +1,28 @@
+{
+  "name": "feeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "feeder.js",
+  "scripts": {
+    "dev": "APIPORT=3000 RAZORKEY=${npm_config_RAZORKEY} DB=${npm_config_DB} nodemon  --watch . --ignore node_modules server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "pouchdb": "^7.0.0",
+    "pouchdb-find": "^7.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "uuid": "^3.3.2",
+    "xxhashjs": "^0.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "nock": "^10.0.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.7"
+  }
+}

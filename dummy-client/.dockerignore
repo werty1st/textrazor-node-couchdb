@@ -1,0 +1,8 @@
+.vscode
+data
+db
+
+jobs/*
+razults/*
+
+node_modules

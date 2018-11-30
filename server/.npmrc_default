@@ -1,0 +1,6 @@
+RAZORKEY=***
+
+DB=http://couchdb:5984/
+
+COUCHDB_USER=
+COUCHDB_PASSWORD=
